@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220405085438">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220405233659">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +22,9 @@
 
 							<nav class="menu__body">
 								<ul class="menu__list">
-									<li class="menu__item"><a href="#" data-goto-header data-goto=".start" class="menu__link">Главная</a></li>
-									<li class="menu__item"><a href="" data-goto-header data-goto=".reviews" class="menu__link">Отзывы</a></li>
-									<li class="menu__item"><a href="" data-goto-header data-goto=".catalog" class="menu__link">Каталог</a></li>
+									<li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+									<li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
+									<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -152,7 +152,7 @@
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" class="item-body-catalog__button button">Подробнее</a>
+								<a href="page-product-1.html" target="_blank" class="item-body-catalog__button button">Подробнее</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
@@ -170,7 +170,7 @@
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
@@ -188,7 +188,7 @@
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
@@ -207,7 +207,7 @@
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
@@ -224,7 +224,7 @@
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
@@ -242,12 +242,12 @@
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
-								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/06.jpg" alt=""></a>
+								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/07.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
 									Фонарь Bailong BL-1902-T6
 								</h3>
@@ -261,7 +261,7 @@
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
@@ -279,7 +279,7 @@
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
@@ -298,7 +298,7 @@
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
 							</div>
 						</div>
 					</div>
@@ -315,7 +315,7 @@
 					</p>
 				</div>
 			</section>
-			<section class="reviews">
+			<section class="reviews" id="reviews">
 				<div class="reviews__container">
 					<h2 class="reviews__title">
 						Отзывы наших покупателей
@@ -414,12 +414,12 @@
 							<input id="name" type="text" placeholder="Введите имя" class="form-zayavka__input">
 						</div>
 						<div class="form-zayavka__line">
-							<label for="name" class="form-zayavka__label">Введите E-mail:</label>
-							<input id="name" type="email" placeholder="mail@mail.ru" class="form-zayavka__input">
+							<label for="email" class="form-zayavka__label">Введите E-mail (не обязательно):</label>
+							<input id="email" type="email" placeholder="mail@mail.ru" class="form-zayavka__input">
 						</div>
 						<div class="form-zayavka__line">
-							<label for="name" class="form-zayavka__label">Введите номер телефона:</label>
-							<input id="name" type="text" placeholder="XXX-XXX-XX-XX" class="form-zayavka__input">
+							<label for="tel" class="form-zayavka__label">Введите номер телефона:</label>
+							<input id="tel" type="text" placeholder="XXX-XXX-XX-XX" class="form-zayavka__input">
 						</div>
 						<div class="form-zayavka__line">
 							<button class="form-zayavka__button button">Заказать</button>
@@ -449,19 +449,17 @@
 			</div>
 		</footer>
 	</div>
-	<!-- 
-<div id="popup" aria-hidden="true" class="popup">
-	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
- -->
-
-	<script src="js/app.min.js?_v=20220405085438"></script>
+	<script src="js/app.min.js?_v=20220405233659"></script>
 </body>
 
 </html>
