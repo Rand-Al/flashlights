@@ -4397,6 +4397,13 @@
     }),
     s.any() && document.documentElement.classList.add("touch"),
     (function () {
+      let e = document.querySelector(".icon-menu");
+      e &&
+        e.addEventListener("click", function (e) {
+          r && (a(), document.documentElement.classList.toggle("menu-open"));
+        });
+    })(),
+    (function () {
       if (document.querySelectorAll("[data-fullscreen]").length && s.any()) {
         function e() {
           let e = 0.01 * window.innerHeight;

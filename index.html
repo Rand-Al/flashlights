@@ -2,11 +2,11 @@
 <html lang="ru">
 
 <head>
-	<title>Главная</title>
+	<title>Головна</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220405233659">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220406144422">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,16 +14,16 @@
 
 <body>
 	<div class="wrapper">
-		<header data-scroll-show="1500" class="header">
+		<header data-scroll-show="500" class="header">
 			<div class="header__container">
 				<div class="header__top top-header">
 					<div class="top-header__left left-header">
 						<div class="left-header__menu menu">
-
+							<button type="button" class=" icon-menu"><span></span></button>
 							<nav class="menu__body">
 								<ul class="menu__list">
-									<li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
-									<li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
+									<li class="menu__item"><a href="index.html" class="menu__link">Головна</a></li>
+									<li class="menu__item"><a href="reviews.html" class="menu__link">Відгуки</a></li>
 									<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
 								</ul>
 							</nav>
@@ -33,32 +33,33 @@
 						<a href="#" class="header__logo"><img data-src="#" alt=""></a>
 					</div>
 					<div class="top-header__right right-header">
-						<a href="" data-goto=".zayavka" class="right-header__button button">Заказать</a>
-						<div class="right-header__phone">
+						<a href="" data-goto=".zayavka" class="right-header__button button">Замовити</a>
+						<div data-da=".menu__body,765" class="right-header__phone">
 							<img class="right-header__icon" src="img/icons/phone.png" alt="">
 							<a href="tel:023145698752" class="right-header__number">0-231-45-698-752</a>
 						</div>
 					</div>
 
 				</div>
-				<!-- <button type="button" class="menu__icon icon-menu"><span></span></button> -->
+
 			</div>
 		</header>
 		<main class="page">
 			<section data-fullscreen class="start">
 				<div class="start__container">
 					<h1 class="start__title">
-						Светодиодные фонарики
-						с доставкой
+						Світлодіодні ліхтарики з доставкою
 					</h1>
 					<p class="start__text">
-						Мы заботимся о надёжных поставщиках, качестве товаров и безопасной оплате. Для экономии не нужен повод, поэтому
-						мы каждый день даём вам скидки на популярные товары самых разных категорий. Наш магазин предлагает светодиодные
-						фонарики.
+						Ми слідкуємо за тим , щоб постачальники були надійні, а товар надходив належної якості. Для
+						економії не потрібен привід, тому
+						ми щодня даємо вам знижки. Наш магазин пропонує
+						світлодіодні
+						ліхтарики.
 					</p>
-					<a href="#" data-goto=".zayavka" class="start__button button">Узнать подробнее</a>
+					<a href="#" data-goto=".zayavka" class="start__button button">Детальніше</a>
 					<p class="start__text start__text_bottom">
-						Оставьте заявку на сайте, и мы свяжемся с Вами для уточнения конфигурации
+						Залиште заявку на сайті, мы св'яжемося з Вами для уточнення конфігурації.
 					</p>
 					<div data-goto-header data-goto="#advantage" class="start__down"><img src="img/icons/down-arrow.png" alt="">
 					</div>
@@ -67,22 +68,23 @@
 			<section id="advantage" class="advantage">
 				<div class="advantage__container">
 					<h2 class="advantage__title">
-						Почему выбирают именно нас
+						Чому вибирають саме нас
 					</h2>
 					<h3 class="advantage__subtitle">
-						Наши преимущества перед другими компаниями
+						Наші переваги перед іншими компаніями
 					</h3>
 					<div class="advantage__body body-advantage">
 						<div class="body-advantage__item">
 							<div class="body-advantage__content content-body-advantage">
 								<div class="content-body-advantage__image-ibg"><img src="img/advantage/01.png" alt=""></div>
 								<div class="content-body-advantage__title">
-									Индивидуальный подход
+									Индивідуальний підхід
 								</div>
 								<p class="content-body-advantage__text">
-									Нам важен каждый клиент, по-этому мы стараемся помочь всем.
-									Если Вы не нашли подходящего товара, смело связывайтесь с нами.
-									Наши менеджеры помогут Вам решить данную проблему в кратчайшие сроки.
+									Кожен клієнт для нас важливий, тому ми намагаемося допомогти всім.
+									Якщо Ви не знайшли потрібного товару, сміливо
+									зв'язуйтесь з нами.
+									Наші менеджери допоможуть Вам вирішити дану проблему протягом 15 хв після відправлення заявки.
 								</p>
 							</div>
 						</div>
@@ -90,12 +92,11 @@
 							<div class="body-advantage__content content-body-advantage">
 								<div class="content-body-advantage__image-ibg"><img src="img/advantage/02.png" alt=""></div>
 								<div class="content-body-advantage__title">
-									Низкие цены
+									Низькі ціни
 								</div>
 								<p class="content-body-advantage__text">
-									Наши цены ниже рыночных на 10%. Это стало возможным благодаря внедрению новой немецкой технологии
-									производства. Она способствует экономии потребляемого электричества в процессе производства и сборки,
-									что в свою очередь снижает рыночную стоимость.
+									Наші ціни нижчі за риночні на 10%. Це стало можливим завдяки завзятій праці наших спеціалістів з
+									логістики, які налагодили поставки товару за найвигіднішими цінами та в найкоротші сроки.
 								</p>
 							</div>
 						</div>
@@ -103,202 +104,190 @@
 							<div class="body-advantage__content content-body-advantage">
 								<div class="content-body-advantage__image-ibg"><img src="img/advantage/03.png" alt=""></div>
 								<div class="content-body-advantage__title">
-									Высокое качество
+									Высока якість
 								</div>
 								<p class="content-body-advantage__text">
-									Благодаря высококвалифицированным специалистам контроля качества, количество брака продукции сведено к
-									0.8%.
-									Вы можете быть полностью увереными в работоспособности наших фонариков.
+									Завдяки висококваліфікованим спеціалістам контролю якості, кількість бракованої продукції зведена до
+									0,8%.
+									Ви можете бути повністю впевненими у працездатності наших ліхтариків.
 								</p>
 							</div>
 						</div>
-						<!-- <div class="body-advantage__item">
-				<div class="body-advantage__content content-body-advantage">
-					<div class="content-body-advantage__image-ibg"><img src="img/advantage/03.png" alt=""></div>
-					<div class="content-body-advantage__title">
-						Высокое качество
-					</div>
-					<p class="content-body-advantage__text">
-						Благодаря высококвалифицированным специалистам контроля качества, количество брака продукции сведено к
-						0.8%.
-						Вы можете быть полностью увереными в работоспособности наших фонариков.
-					</p>
-				</div>
-			</div> -->
 					</div>
 				</div>
 			</section>
 			<section class="catalog">
 				<div class="catalog__container">
 					<h2 class="catalog__title">
-						Каталог светодиодных фонариков
+						Каталог світлодіодних ліхтариків
 					</h2>
 					<h3 class="catalog__subtitle">
-						В нашем магазине представлено огромное количество товаров от ведущих поставщиков
+						В нашому магазині представлена велика кількість товарів від провідних постачальників
 					</h3>
 					<div class="catalog__body body-catalog">
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
-								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/0.jpg" alt=""></a>
+								<a href="page-product-1.html" target="_blank" class="item-body-catalog__image-ibg"><img src="img/catalog/0.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
-									Налобный фонарь Bailong BL-T73-T6
+									Налобний ліхтарик Bailong BL-T73-T6
 								</h3>
 								<p class="item-body-catalog__text">
-									Источником питания в налобном фонаре служит аккумуляторная батарея типа 18650 - 2 шт. В комплекте с
-									поставкой идет зарядка - 220B или 12B. Количество режимов 5 Материал корпуса исполнен из - Сплав
-									алюминия + Пластик. BL-T73-T6 надежный фонарик, легко подойдет для бытовых нужд, походов, рыбалки или
-									охоты.
+									Джерелом живлення в налобному ліхтарі служить акумуляторна батарея типу 18650 - 2 шт. В комплекті з
+									постачанням йде зарядка - 220B або 12B. Кількість режимів 5. Матеріал корпусу виконаний з - Сплав
+									алюмінію + Пластик. BL-T73-T6 надійний ліхтарик, легко підійде для побутових потреб, походів,
+									риболовлі або
+									полювання.
 								</p>
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="page-product-1.html" target="_blank" class="item-body-catalog__button button">Подробнее</a>
+								<a href="page-product-1.html" target="_blank" class="item-body-catalog__button button">Детальніше</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
 								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/02.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
-									Фонарик Bailong Police BL-U01-T6
+									Ліхтарик Bailong Police BL-U01-T6
 								</h3>
 								<p class="item-body-catalog__text">
-									Недорогой тактический фонарик BL-U01-T6, световой поток которого составляет 1000 люмен, Дальность
-									потока - 1000 м. Идеальный фонарик для вечерних прогулок,BailongBL-U01-T6 имеет не большие размеры,
-									что идеально для ношения в сумке или в кармане. В основу света положен современный светодиод - T6.
-									Питанием служит - 18650 - 1шт,а зарядка производится от 220B или 12B.
+									Недорогий тактичний ліхтарик BL-U01-T6, світловий потік якого становить 1000 люмен. Дальність
+									потоку - 1000 м. Ідеальний ліхтарик для вечірніх прогулянок, BailongBL-U01-T6 має невеликі розміри,
+									що ідеально для носіння в сумці чи кишені. В основу світла покладено сучасний світлодіод – T6.
+									Живленням служить - 18650 - 1шт, а зарядка проводиться від 220B або 12B.
 								</p>
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Детальніше</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
 								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/03.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
-									Тактический фонарь X-Balog BL-A64
+									Тактичний ліхтарик X-Balog BL-A64
 								</h3>
 								<p class="item-body-catalog__text">
-									Недорогой тактический фонарик BL-A64, световой поток которого составляет 300 люмен, Дальность потока -
-									100 м. Идеальный фонарик для вечерних прогулок,X-BalogBL-A64 имеет не большие размеры, что идеально
-									для ношения в сумке или в кармане. В основу света положен современный светодиод - Q5-Green (зеленый).
-									Питанием служит - 18650 - 1шт,а зарядка производится от 220B или 12B.
+									Недорого тактичний ліхтарик BL-A64, світловий потік якого становить 300 люмен. Дальність потоку -
+									100 м. Ідеальний ліхтарик для вечірніх прогулянок. X-BalogBL-A64 має невеликі розміри, що ідеально
+									для носіння у сумці або в кишені. В основу світла покладено сучасний світлодіод – Q5-Green (зелений).
+									Живленням служить - 18650 - 1шт, а зарядка проводиться від 220B або 12B.
 								</p>
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Детальніше</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
 								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/04.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
-									Ручной фонарик Bailong Police BL-9515 T6
+									Ручний ліхтарик Bailong Police BL-9515 T6
 								</h3>
 								<p class="item-body-catalog__text">
-									Источником света в данной модели является твердотельные светоизлучающие диоды LED (производства
-									американской компании CREE). Они обеспечивают большую светоотдачу при малых габаритах и потребляют на
-									90% меньше энергии в сравнении с лампами накаливания. В лампе
-									отсутствуют токсические вещества, такие как ртуть или свинец. Они устойчивы к ударам и не перегорают,
-									как лампы накаливания. Корпус влагозащищенный из прочного алюминиевого сплава .
+									Джерелом світла в даній моделі є твердотільні світловипромінюючі діоди LED (виробництва американської
+									компанії CREE). Вони забезпечують велику світловіддачу при малих габаритах і споживають на 90% менше
+									енергії, ніж лампи розжарювання. У лампі відсутні токсичні речовини, такі як ртуть або свинець. Вони
+									стійкі до ударів і не перегорають, як лампи розжарювання. Корпус захищений від вологи із міцного
+									алюмінієвого сплаву.
 								</p>
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Детальніше</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
 								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/05.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
-									Фонарик ручной Police BL-8353 2000W25
+									Ручний ліхтарик Police BL-8353 2000W25
 								</h3>
 								<p class="item-body-catalog__text">
-									Как источник света, данная модель использует современный светодиод известной американской компании
-									Cree с максимальной мощностью 500 люмен и дальностью свечения до 200 метров, что обеспечивает отличную
-									видимость в ночное время.
+									Як джерело світла, дана модель використовує сучасний світлодіод відомої американської компанії Cree з
+									максимальною потужністю 500 люмен та дальністю світіння до 200 метрів, що забезпечує чудову видимість
+									у нічний час.
 								</p>
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Детальніше</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
 								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/06.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
-									Карманный фонарь Bailong BL-8047
+									Карманний ліхтарик Bailong BL-8047
 								</h3>
 								<p class="item-body-catalog__text">
-									Бюджетный карманный фонарик BL-8047, световой поток которого составляет 100 люмен, Дальность потока -
-									100 м. Идеальный фонарик для вечерних прогулок,BailongBL-8047 имеет не большие размеры, что идеально
-									для ношения в сумке или в кармане. В основу света положен современный светодиод - LED. Питанием служит
-									- ,а зарядка производится от .
+									Бюджетний кишеньковий ліхтарик BL-8047, світловий потік якого становить 100 люмен, Дальність потоку -
+									100 м. Ідеальний ліхтарик для вечірніх прогулянок, BailongBL-8047 має невеликі розміри, що ідеально
+									для носіння в сумці або кишені. В основу світла покладено сучасний світлодіод – LED.
 								</p>
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Детальніше</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
 								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/07.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
-									Фонарь Bailong BL-1902-T6
+									Ліхтарик Bailong BL-1902-T6
 								</h3>
 								<p class="item-body-catalog__text">
-									BL-1902-T6 - тактический фонарь с мощным светодиодом Cree XM-L T6, питание которого происходит от
-									одного аккумулятора, типоразмера 18650 или 3-х батареек ААА. Плавно двигающаяся линза, с возможностью
-									фокусировать луч света до небольшой точки. Встроенный микроразъем для зарядных устройств идущих в
-									комплекте, позволяет заряжать BL-1902-T6 как от сети, так и от прикуривателя автомобиля. Металлическая
-									кнопка включения расположилась сборку анодированного корпуса фонаря.
+									BL-1902-T6 - тактичний ліхтар із потужним світлодіодом Cree XM-L T6, живлення якого походить від
+									одного акумулятора, типорозміру 18650 або 3-х батарей ААА. Лінза, що рухається, з можливістю
+									фокусувати промінь світла до невеликої точки. Вбудований мікророз'єм для зарядних пристроїв, що йдуть
+									у комплекті, дозволяє заряджати BL-1902-T6 як від мережі, так і від прикурювача автомобіля. Металева
+									кнопка включення розташувалася збоку анодованого корпусу ліхтаря.
 								</p>
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Детальніше</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
 								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/08.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
-									Налобный фонарь Bailong BL-T05-T6
+									Налобний ліхтарик Bailong BL-T05-T6
 								</h3>
 								<p class="item-body-catalog__text">
-									Источником питания в налобном фонаре служит аккумуляторная батарея типа 18650 - 2 шт. В комплекте с
-									поставкой идет зарядка - 220B или 12B. Количество режимов 3 Материал корпуса исполнен из - Сплав
-									алюминия + Пластик. BL-T05-T6 надежный фонарик, легко подойдет для бытовых нужд, походов, рыбалки или
-									охоты.
+									Джерелом живлення в налобному ліхтарі служить акумуляторна батарея типу 18650 - 2 шт. В комплекті з
+									постачанням йде зарядка - 220B або 12B. Кількість режимів 3 Матеріал корпусу виконаний з -
+									Сплавалюмінію + Пластик. BL-T05-T6 надійний ліхтарик, легко підійде для побутових потреб, походів,
+									риболовлі або
+									полювання.
 								</p>
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Детальніше</a>
 							</div>
 						</div>
 						<div class="body-catalog__item">
 							<div class="item-body-catalog">
 								<a href="" class="item-body-catalog__image-ibg"><img src="img/catalog/09.jpg" alt=""></a>
 								<h3 class="item-body-catalog__title">
-									Фонарь Bailong BL-S910
+									Ліхтарик Bailong BL-S910
 								</h3>
 								<p class="item-body-catalog__text">
-									Благодаря тому что установлен экономичный светодиод Cree XP-E Q5 и 2 аккумулятора 18650, фонарь
-									Bailong BL-S910 показывает лучшие показатели по времени беспрерывной работы, без длительной
-									подзарядки. Серебристый корпус фонаря BL-S910 из алюминия, а кнопка включения расположена на ручке,
-									рядом разъем для подзарядки, позволяющий заряжать фонарь не вынимания аккумуляторов. Подвижная часть
-									головы фонаря дает возможность фокусировать линзу.
+									Завдяки тому, що встановлений економічний світлодіод Cree XP-E Q5 і 2 акумулятори 18650, ліхтар
+									Bailong BL-S910 показує найкращі показники за часом безперервної роботи, без тривалої підзарядки.
+									Сріблястий корпус ліхтаря BL-S910 з алюмінію, а кнопка включення розташована на ручці, поряд роз'єм
+									для підзарядки, що дозволяє заряджати ліхтар без виймання акумуляторів. Рухлива частина голови ліхтаря
+									дозволяє фокусувати лінзу.
 								</p>
 								<p class="item-body-catalog__price">
 									0 грн.
 								</p>
-								<a href="" target="_blank" class="item-body-catalog__button button">Подробнее</a>
+								<a href="" target="_blank" class="item-body-catalog__button button">Детальніше</a>
 							</div>
 						</div>
 					</div>
@@ -307,21 +296,21 @@
 			<section class="quostions">
 				<div class="quostions__container">
 					<h2 class="quostions__title">
-						Остались вопросы? Задавайте их нам
+						Залишилися питання? Задавайте їх нам
 					</h2>
-					<a href="" data-goto=".zayavka" class="quostions__button button">Задать вопрос</a>
+					<a href="" data-goto=".zayavka" class="quostions__button button">Задати питання</a>
 					<p class="quostions__subtitle">
-						Мы перезвоним через 15 минут
+						Ми передзвонимо через 15 хвилин
 					</p>
 				</div>
 			</section>
 			<section class="reviews" id="reviews">
 				<div class="reviews__container">
 					<h2 class="reviews__title">
-						Отзывы наших покупателей
+						Відгуки наших покупців
 					</h2>
 					<h3 class="reviews__subtitle">
-						Что говорят клиенты о нашей компании
+						Що говорять клієнты про нашу компанию
 					</h3>
 					<div class="reviews__body body-reviews">
 						<div class="body-reviews__item ">
@@ -331,14 +320,12 @@
 								</div>
 								<div class="item-body-reviews__right">
 									<div class="item-body-reviews__name">
-										Иванов Иван
+										Іван Петрівський
 									</div>
 									<div class="item-body-reviews__text">
-										Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично"
-										и
-										советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их
-										дисциплиной.
-										Спасибо вашей компании!
+										Все, що зазначено в договорі, було виконано в строк, тому можу поставити вашій компанії "відмінно",
+										буду радити іншим звертатися тільки до вас. Приємно здивована рівнем ваших майстрів та їх. Дякуємо
+										вашій компанії!
 									</div>
 								</div>
 							</div>
@@ -350,14 +337,12 @@
 								</div>
 								<div class="item-body-reviews__right">
 									<div class="item-body-reviews__name">
-										Алена Иванова
+										Олена Захарова
 									</div>
 									<div class="item-body-reviews__text">
-										Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично"
-										и
-										советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их
-										дисциплиной.
-										Спасибо вашей компании!
+										Все, що зазначено в договорі, було виконано в строк, тому можу поставити вашій компанії "відмінно",
+										буду радити іншим звертатися тільки до вас. Приємно здивована рівнем ваших майстрів та їх. Дякуємо
+										вашій компанії!
 									</div>
 								</div>
 							</div>
@@ -369,14 +354,12 @@
 								</div>
 								<div class="item-body-reviews__right">
 									<div class="item-body-reviews__name">
-										Ирина Макарова
+										Ірина Макарчук
 									</div>
 									<div class="item-body-reviews__text">
-										Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично"
-										и
-										советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их
-										дисциплиной.
-										Спасибо вашей компании!
+										Все, що зазначено в договорі, було виконано в строк, тому можу поставити вашій компанії "відмінно",
+										буду радити іншим звертатися тільки до вас. Приємно здивована рівнем ваших майстрів та їх. Дякуємо
+										вашій компанії!
 									</div>
 								</div>
 							</div>
@@ -388,14 +371,12 @@
 								</div>
 								<div class="item-body-reviews__right">
 									<div class="item-body-reviews__name">
-										Дмитрий Константинов
+										Дмитро Загорулько
 									</div>
 									<div class="item-body-reviews__text">
-										Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично"
-										и
-										советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их
-										дисциплиной.
-										Спасибо вашей компании!
+										Все, що зазначено в договорі, було виконано в строк, тому можу поставити вашій компанії "відмінно",
+										буду радити іншим звертатися тільки до вас. Приємно здивована рівнем ваших майстрів та їх. Дякуємо
+										вашій компанії!
 									</div>
 								</div>
 							</div>
@@ -406,27 +387,25 @@
 			<section class="zayavka">
 				<div class="zayavka__container">
 					<h2 class="zayavka__title">
-						Оставить заявку
+						Зробити замовлення
 					</h2>
 					<form action="#" class="zayavka__form form-zayavka">
 						<div class="form-zayavka__line">
-							<label for="name" class="form-zayavka__label">Введите имя:</label>
-							<input id="name" type="text" placeholder="Введите имя" class="form-zayavka__input">
+							<label for="name" class="form-zayavka__label">Введіть им'я:</label>
+							<input id="name" type="text" placeholder="Введіть им'я" class="form-zayavka__input">
 						</div>
 						<div class="form-zayavka__line">
-							<label for="email" class="form-zayavka__label">Введите E-mail (не обязательно):</label>
+							<label for="email" class="form-zayavka__label">Введіть E-mail (не обов'язково):</label>
 							<input id="email" type="email" placeholder="mail@mail.ru" class="form-zayavka__input">
 						</div>
 						<div class="form-zayavka__line">
-							<label for="tel" class="form-zayavka__label">Введите номер телефона:</label>
+							<label for="tel" class="form-zayavka__label">Введіть номер телефону:</label>
 							<input id="tel" type="text" placeholder="XXX-XXX-XX-XX" class="form-zayavka__input">
 						</div>
 						<div class="form-zayavka__line">
-							<button class="form-zayavka__button button">Заказать</button>
+							<button class="form-zayavka__button button">Замовити</button>
 						</div>
 						<div class="form-zayavka__line">
-							<div class="form-zayavka__confiden">Нажимая на кнопку, Вы принимаете <a href="#">Положение</a> и <a href="#">Согласие
-								</a> на обработку персональных данных.</div>
 						</div>
 
 					</form>
@@ -437,7 +416,7 @@
 			<div class="footer__container">
 				<div class="footer__left left-footer">
 					<div class="left-footer__logo">
-						ФОНАРИКИ
+						<a href="index.html">ЛІХТАРИКИ</a>
 					</div>
 				</div>
 				<div class="footer__right right-footer ">
@@ -459,7 +438,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220405233659"></script>
+	<script src="js/app.min.js?_v=20220406144422"></script>
 </body>
 
 </html>
